@@ -3,7 +3,15 @@
   "version": "0.0.1",
   "description": "Opal CSS support for JSTransformers.",
   "keywords": [
-    "jstransformer"
+    "css",
+    "jstransformer",
+    "opal",
+    "opalcss",
+    "post",
+    "postcss",
+    "postprocessor",
+    "preprocessor",
+    "transform"
   ],
   "files": [
     "index.js"
