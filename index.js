@@ -4,7 +4,7 @@ var opal = require('opalcss')
 var extend = require('extend-shallow')
 
 exports.name = 'opalcss'
-exports.inputFormats = ['opal', 'opalcss', 'css', 'scss', 'sass']
+exports.inputFormats = ['opal', 'opalcss']
 exports.outputFormat = 'css'
 
 exports.render = function (str, opts, locals) {
