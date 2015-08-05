@@ -1,16 +1,14 @@
 'use strict';
 
 var opal = require('opalcss')
+var postcss = require('jstransformer-postcss')
 var extend = require('extend-shallow')
 
 exports.name = 'opalcss'
 exports.inputFormats = ['opal', 'opalcss']
 exports.outputFormat = 'css'
 
-exports.render = function (str, opts, locals) {
-  opts = opts && typeof opts === 'object' ? opts : {}
-  locals = locals && typeof locals === 'object' ? locals : {}
-  var options = extend({}, opts, locals)
-
-  return opal.process(str, opts).css
+exports.render = function (str, opts) {
+  opts = extend({plugins: [opal(opts)]}, opts)
+  return postcss.render(str, opts)
 }
