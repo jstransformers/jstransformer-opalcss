@@ -26,7 +26,6 @@
   "license": "MIT",
   "dependencies": {
     "extend-shallow": "^2.0.1",
-    "opalcss": "0.0.2",
-    "promise": "^7.0.4"
+    "opalcss": "^0.0.2",
   }
 }
