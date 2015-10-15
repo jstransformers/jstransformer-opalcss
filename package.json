@@ -35,6 +35,6 @@
   "dependencies": {
     "extend-shallow": "^2.0.1",
     "jstransformer-postcss": "^0.4.1",
-    "opalcss": "0.0.2"
+    "opalcss": "0.1.1"
   }
 }
