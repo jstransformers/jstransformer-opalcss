@@ -34,7 +34,7 @@
   "license": "MIT",
   "dependencies": {
     "extend-shallow": "^2.0.1",
-    "jstransformer-postcss": "^0.4.1",
+    "jstransformer-postcss": "^1.1.0",
     "opalcss": "0.0.2"
   }
 }
