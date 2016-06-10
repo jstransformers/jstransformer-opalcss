@@ -8,7 +8,7 @@ exports.name = 'opalcss';
 exports.inputFormats = ['opal', 'opalcss'];
 exports.outputFormat = 'css';
 
-exports.render = function (str, opts) {
+exports.renderAsync = function (str, opts) {
   opts = extend({plugins: [opal(opts)]}, opts);
-  return postcss.render(str, opts);
+  return postcss.renderAsync(str, opts);
 };
