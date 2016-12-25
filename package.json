@@ -2,9 +2,7 @@
   "dependencies": {
     "extend-shallow": "^2.0.1",
     "jstransformer-postcss": "^1.1.0",
-    "opalcss": "0.2.0"
-  },
-  "name": "jstransformer-foo",
+    "opalcss": "0.2.0" }, "name": "jstransformer-foo",
   "version": "0.1.0",
   "description": "OpalCSS support for JSTransformers.",
   "keywords": [
@@ -14,14 +12,16 @@
     "index.js"
   ],
   "devDependencies": {
-    "test-jstransformer": "^1.0.0"
+    "test-jstransformer": "^1.0.0",
+    "xo": "^0.17.1"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
-    "test": "test-jstransformer"
+    "test": "test-jstransformer",
+    "posttest": "xo --space --no-semicolon index.js"
   },
   "engines": {
-    "node": ">= 4"
+    "node": ">=4"
   },
   "repository": {
     "type": "git",
