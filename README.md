@@ -1,5 +1,7 @@
 # jstransformer-opalcss
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-opalcss.svg)](https://greenkeeper.io/)
+
 [Opal CSS](https://github.com/robloach/opalcss) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-opalcss/master.svg)](https://travis-ci.org/jstransformers/jstransformer-opalcss)
