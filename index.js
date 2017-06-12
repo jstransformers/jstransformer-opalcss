@@ -1,8 +1,8 @@
 'use strict'
 
-var opal = require('opalcss')
-var postcss = require('jstransformer-postcss')
-var extend = require('extend-shallow')
+const opal = require('opalcss')
+const postcss = require('jstransformer-postcss')
+const extend = require('extend-shallow')
 
 exports.name = 'opalcss'
 exports.inputFormats = ['opal', 'opalcss']
