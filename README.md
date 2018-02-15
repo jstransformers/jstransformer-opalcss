@@ -15,7 +15,7 @@
 ## API
 
 ```js
-var opalcss = require('jstransformer')(require('jstransformer-opalcss'));
+var opalcss = require('jstransformer')(require('jstransformer-opalcss'))
 
 // TODO: Add JavaScript documentation
 ```
