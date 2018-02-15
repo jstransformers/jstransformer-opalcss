@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "extend-shallow": "^2.0.1",
+    "extend-shallow": "^3.0.2",
     "jstransformer-postcss": "^1.1.0",
     "opalcss": "^0.2.0"
   },
